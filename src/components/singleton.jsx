@@ -1,7 +1,7 @@
 class Singleton {
-  PAGES: {
+  PAGES = {
     Главная: 0,
-    Купить: 0,
+    "Покупка билетов": 0,
   };
 
   //Ограничение возможности повторного создания экземпляра Singleton
@@ -25,4 +25,4 @@ class Singleton {
   }
 }
 
-export default Singletonl;
+export default Singleton;
